@@ -1,0 +1,8 @@
+c:\users\bale\documents\visual studio 2010\Projects\EgbinSample\EgbinSample\bin\Debug\EgbinSample.exe
+c:\users\bale\documents\visual studio 2010\Projects\EgbinSample\EgbinSample\bin\Debug\EgbinSample.pdb
+c:\users\bale\documents\visual studio 2010\Projects\EgbinSample\EgbinSample\obj\x86\Debug\EgbinSample.Form1.resources
+c:\users\bale\documents\visual studio 2010\Projects\EgbinSample\EgbinSample\obj\x86\Debug\EgbinSample.Properties.Resources.resources
+c:\users\bale\documents\visual studio 2010\Projects\EgbinSample\EgbinSample\obj\x86\Debug\EgbinSample.csproj.GenerateResource.Cache
+c:\users\bale\documents\visual studio 2010\Projects\EgbinSample\EgbinSample\obj\x86\Debug\EgbinSample.exe
+c:\users\bale\documents\visual studio 2010\Projects\EgbinSample\EgbinSample\obj\x86\Debug\EgbinSample.pdb
+C:\Users\BALE\documents\visual studio 2010\Projects\EgbinSample\EgbinSample\obj\x86\Debug\EgbinSample.csprojResolveAssemblyReference.cache
