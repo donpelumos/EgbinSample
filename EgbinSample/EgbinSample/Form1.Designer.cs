@@ -43,8 +43,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -198,10 +202,30 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.panel3.Controls.Add(this.panel4);
             this.panel3.Location = new System.Drawing.Point(261, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(606, 613);
             this.panel3.TabIndex = 2;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Purple;
+            this.panel4.Controls.Add(this.button10);
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(606, 57);
+            this.panel4.TabIndex = 0;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(523, 12);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(71, 30);
+            this.button10.TabIndex = 0;
+            this.button10.Text = "Edit";
+            this.button10.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -220,6 +244,8 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,6 +267,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button button10;
 
 
     }
