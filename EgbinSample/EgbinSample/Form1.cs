@@ -29,6 +29,8 @@ namespace EgbinSample
         private void Form1_Resize(object sender, EventArgs e)
         {
             panel1.Height = this.Height-45;
+            panel3.Width = (int)(this.Width - panel1.Width - 40);
+            panel3.Height = this.Height - 45;
             //panel1.Left = (int)(this.Width - panel1.Width) / 2;
         }
     }
