@@ -41,6 +41,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -49,6 +50,7 @@
             // 
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.button9);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.panel2);
@@ -61,7 +63,7 @@
             this.panel1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(257, 562);
+            this.panel1.Size = new System.Drawing.Size(257, 613);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -144,7 +146,7 @@
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(55, 527);
+            this.button7.Location = new System.Drawing.Point(119, 578);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(130, 32);
             this.button7.TabIndex = 8;
@@ -180,6 +182,17 @@
             this.label2.Size = new System.Drawing.Size(195, 44);
             this.label2.TabIndex = 11;
             this.label2.Text = "Surname Firstname";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(8, 578);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(105, 32);
+            this.button9.TabIndex = 12;
+            this.button9.Text = "About";
+            this.button9.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -216,6 +229,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button9;
 
 
     }
