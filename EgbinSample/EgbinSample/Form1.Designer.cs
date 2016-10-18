@@ -42,6 +42,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -194,6 +195,14 @@
             this.button9.Text = "About";
             this.button9.UseVisualStyleBackColor = true;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.panel3.Location = new System.Drawing.Point(261, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(606, 613);
+            this.panel3.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,6 +210,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(884, 461);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.MinimumSize = new System.Drawing.Size(700, 400);
             this.Name = "Form1";
@@ -230,6 +240,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Panel panel3;
 
 
     }
