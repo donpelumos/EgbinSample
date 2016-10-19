@@ -30,8 +30,9 @@ namespace EgbinSample
         {
             panel1.Height = this.Height-45;
             panel3.Width = (int)(this.Width - panel1.Width - 40);
-            panel3.Height = this.Height - 45;
+            panel3.Height = panel1.Height;
             panel4.Width = panel3.Width;
+            label5.Width = panel3.Width;
             //panel1.Left = (int)(this.Width - panel1.Width) / 2;
         }
     }
